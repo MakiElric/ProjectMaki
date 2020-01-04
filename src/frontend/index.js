@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HelloMaki from './components/HelloMaki';
+//import HelloMaki from './components/HelloMaki';
+import Header from './components/Header';
+import './assets/styles/app.scss';
 
-ReactDOM.render(<HelloMaki />, document.getElementById('app'));
+ReactDOM.render(<Header />, document.getElementById('app'));
