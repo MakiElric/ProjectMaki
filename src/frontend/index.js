@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 //import HelloMaki from './components/HelloMaki';
-import Header from './components/Header';
+import App from './routes/App';
 import './assets/styles/app.scss';
 
-ReactDOM.render(<Header />, document.getElementById('app'));
+ReactDOM.render(<App />, document.getElementById('app'));
